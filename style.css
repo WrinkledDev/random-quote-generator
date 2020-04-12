@@ -28,6 +28,7 @@
 
 #intro h1 {
   font-size: 2.5em;
+  text-align: center;
 }
 
 .quote-box {
@@ -52,6 +53,7 @@
 }
 
 #author {
+  text-align: center;
   margin-right: 20px;
   color: #a52f2f;
   font-size: 1.4em;
@@ -69,4 +71,22 @@ button {
 
 button:hover {
   background-color: rgba(99, 18, 99, 0.7);
+}
+
+@media only screen and (max-width: 600px) {
+  #intro h1 {
+    font-size: 1.5em;
+  }
+
+  #text {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2;
+  }
+
+  #author {
+    text-align: center;
+    margin-right: 20px;
+    font-size: 1em;
+  }
 }
